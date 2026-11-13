@@ -2,6 +2,32 @@
   "schema": 1,
   "events": [
     {
+      "id": "incident-01M78GAT3AK9P9W8Z230KHFVE8",
+      "title": "Elevated errors affecting the Microsoft 365 connector",
+      "summary": "We’re seeing signs of recovery for the Microsoft 365 connector and are continuing to monitor the affected services to confirm recovery.",
+      "source_url": "https://status.openai.com/incidents/01M78GAT3AK9P9W8Z230KHFVE8",
+      "updated_at": "2026-11-13T16:20:45Z",
+      "topics": [
+        "connectors"
+      ],
+      "kind": "incident",
+      "status": "monitoring"
+    },
+    {
+      "id": "incident-01M7ATRS6BMZ61E4JDHJGM79Y0",
+      "title": "Delayed Costs Data in the Compliance API",
+      "summary": "We have identified an issue causing delays in publishing Organization cost data through the Costs API. API and ChatGPT usage are not affected. We are working to restore normal data freshness.",
+      "source_url": "https://status.openai.com/incidents/01M7ATRS6BMZ61E4JDHJGM79Y0",
+      "updated_at": "2026-11-13T16:10:07Z",
+      "topics": [
+        "work",
+        "api",
+        "chatgpt"
+      ],
+      "kind": "incident",
+      "status": "active"
+    },
+    {
       "id": "codex-rust-v0.169.0",
       "title": "0.169.0",
       "summary": "## New Features\n\n- The opt-in terminal workspace supports multiple side-chat tabs. Switch between them with the keyboard or mouse, and reopen saved local side chats after restarting Codex. (#59784, #60152, #60181)\n- Search older tasks from the agent command center by name, prompt preview, or working directory. (#60286)\n- Turn on **Collapse turn details** in the full-screen transcript to fold completed activity beneath each prompt while keeping answers visible and tool output searchable. (#60554, #60555, #60556, #60557)\n- Add or edit custom model providers from the terminal. With custom gateway onboarding enabled, you can create a provider during sign-in and use a device code for supported gateways over SSH or without a local browser. (#59779, #60009, #60186, #60486, #60662)\n- Press `Ctrl+S` in the terminal report editor to save a diagnostic ZIP locally, even when uploads are disabled. (#60542)\n- With the opt-in Cloud connection on macOS and Linux, send images, choose a model and reason",
@@ -65,19 +91,6 @@
       ],
       "kind": "announcement",
       "status": "published"
-    },
-    {
-      "id": "incident-01M78GAT3AK9P9W8Z230KHFVE8",
-      "title": "Elevated errors affecting the Microsoft 365 connector",
-      "summary": "We’re investigating an issue with Microsoft connectors where new connections may be broken and tools are not working as expected. We’ll share an update when we know more.",
-      "source_url": "https://status.openai.com/incidents/01M78GAT3AK9P9W8Z230KHFVE8",
-      "updated_at": "2026-11-12T18:29:14Z",
-      "topics": [
-        "connectors",
-        "work"
-      ],
-      "kind": "incident",
-      "status": "active"
     },
     {
       "id": "incident-01M77FAXVFV338GY7G9VRENRS5",
