@@ -15,6 +15,19 @@
       "status": "published"
     },
     {
+      "id": "ui-codex-cli-v0.169.0-side-chat-tabs",
+      "title": "Codex CLI 0.169.0: Mehrere Side-Chat-Tabs",
+      "summary": "Neu im optionalen Terminal-Workspace: mehrere Side-Chat-Tabs, Umschalten per Tastatur oder Maus und Wiederöffnen gespeicherter lokaler Neben-Chats nach Codex-Neustart. Nutzen: Nebenfragen und technische Recherchen parallel zur Hauptaufgabe führen, ohne den Haupt-Thread zu überladen. Codex CLI/TUI; nicht als Funktion der grafischen Windows-App bestätigt.",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+      "updated_at": "2026-11-13T08:37:05Z",
+      "topics": [
+        "codex",
+        "windows"
+      ],
+      "kind": "announcement",
+      "status": "published"
+    },
+    {
       "id": "incident-01M79GYA0GA772Y6D089AH5478",
       "title": "Sites: Publishing failing",
       "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
