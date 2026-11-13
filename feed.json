@@ -53,6 +53,20 @@
       "status": "published"
     },
     {
+      "id": "ui-codex-cli-v0.168.0-animated-gif-option",
+      "title": "Codex CLI 0.168.0: Animierte GIFs über optionales Feature",
+      "summary": "Mit dem optionalen Flag features.image_generation_animation unterstützt Codex CLI die Erzeugung und Bearbeitung animierter GIFs mit wählbarer Frame-Anzahl und Frame-Dauer, sofern Modell und Bildfunktion dies unterstützen. Nutzen: animierte UI-Assets für eigene Projekte herstellen oder anpassen. Kein Nachweis, dass die grafische Codex-Windows-App dieselbe Option anbietet.",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
+      "updated_at": "2026-11-13T03:54:29Z",
+      "topics": [
+        "codex",
+        "images",
+        "windows"
+      ],
+      "kind": "announcement",
+      "status": "published"
+    },
+    {
       "id": "incident-01M78GAT3AK9P9W8Z230KHFVE8",
       "title": "Elevated errors affecting the Microsoft 365 connector",
       "summary": "We’re investigating an issue with Microsoft connectors where new connections may be broken and tools are not working as expected. We’ll share an update when we know more.",
