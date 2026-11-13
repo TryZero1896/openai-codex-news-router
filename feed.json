@@ -1,4 +1,204 @@
 {
   "schema": 1,
-  "events": []
+  "events": [
+    {
+      "id": "codex-rust-v0.169.0",
+      "title": "0.169.0",
+      "summary": "## New Features\n\n- The opt-in terminal workspace supports multiple side-chat tabs. Switch between them with the keyboard or mouse, and reopen saved local side chats after restarting Codex. (#59784, #60152, #60181)\n- Search older tasks from the agent command center by name, prompt preview, or working directory. (#60286)\n- Turn on **Collapse turn details** in the full-screen transcript to fold completed activity beneath each prompt while keeping answers visible and tool output searchable. (#60554, #60555, #60556, #60557)\n- Add or edit custom model providers from the terminal. With custom gateway onboarding enabled, you can create a provider during sign-in and use a device code for supported gateways over SSH or without a local browser. (#59779, #60009, #60186, #60486, #60662)\n- Press `Ctrl+S` in the terminal report editor to save a diagnostic ZIP locally, even when uploads are disabled. (#60542)\n- With the opt-in Cloud connection on macOS and Linux, send images, choose a model and reason",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+      "updated_at": "2026-11-13T08:37:05Z",
+      "topics": [
+        "codex",
+        "windows"
+      ],
+      "kind": "release",
+      "status": "published"
+    },
+    {
+      "id": "incident-01M79GYA0GA772Y6D089AH5478",
+      "title": "Sites: Publishing failing",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "source_url": "https://status.openai.com/incidents/01M79GYA0GA772Y6D089AH5478",
+      "updated_at": "2026-11-13T05:55:44Z",
+      "topics": [
+        "work"
+      ],
+      "kind": "incident",
+      "status": "resolved"
+    },
+    {
+      "id": "codex-rust-v0.168.0",
+      "title": "0.168.0",
+      "summary": "## New Features\n\n- Browse model providers under Sessions → Model providers and choose the default for new chats. (#59541, #59722)\n- Enable `features.tui_workspace` to view a side conversation beside the main chat. Drag the divider to resize the panes or press `leader z` to zoom the focused pane. (#58992, #59527, #59595)\n- Attach recordings when using an audio-capable model. Codex skips confirmed rejected recordings on later turns and uses clip duration to keep more short recordings in context. (#59234, #59268)\n- Enable `features.image_generation_animation` to generate or edit animated GIFs with optional frame count and timing controls. (#59073)\n- Fullscreen Codex displays image previews and pets in tmux on Ghostty and Kitty with `allow-passthrough all`. (#59579, #59580)\n- Set `tui.notification_method = \"osc777\"` for terminal notifications. Approval notifications show longer command previews and distinguish terminal input from network access requests. (#59256)\n\n## Bug Fixes\n\n- Local TUI",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
+      "updated_at": "2026-11-13T03:54:29Z",
+      "topics": [
+        "codex",
+        "windows"
+      ],
+      "kind": "release",
+      "status": "published"
+    },
+    {
+      "id": "incident-01M78GAT3AK9P9W8Z230KHFVE8",
+      "title": "Elevated errors affecting the Microsoft 365 connector",
+      "summary": "We’re investigating an issue with Microsoft connectors where new connections may be broken and tools are not working as expected. We’ll share an update when we know more.",
+      "source_url": "https://status.openai.com/incidents/01M78GAT3AK9P9W8Z230KHFVE8",
+      "updated_at": "2026-11-12T18:29:14Z",
+      "topics": [
+        "connectors",
+        "work"
+      ],
+      "kind": "incident",
+      "status": "active"
+    },
+    {
+      "id": "incident-01M77FAXVFV338GY7G9VRENRS5",
+      "title": "GPT-image-2.5 and 2.6 Sunburst & Flare High error rate",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "source_url": "https://status.openai.com/incidents/01M77FAXVFV338GY7G9VRENRS5",
+      "updated_at": "2026-11-12T09:25:12Z",
+      "topics": [
+        "images",
+        "models"
+      ],
+      "kind": "incident",
+      "status": "resolved"
+    },
+    {
+      "id": "incident-01M76CW2D7FM7K7F8NJ4W0G08N",
+      "title": "Unable to start new Workspace Agent runs",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "source_url": "https://status.openai.com/incidents/01M76CW2D7FM7K7F8NJ4W0G08N",
+      "updated_at": "2026-11-12T08:32:37Z",
+      "topics": [
+        "work"
+      ],
+      "kind": "incident",
+      "status": "resolved"
+    },
+    {
+      "id": "codex-rust-v0.167.2",
+      "title": "0.167.2",
+      "summary": "## New Features\n\n- Codex now sends tool updates incrementally by default on Google Cloud Vertex AI. To opt out, set `incremental_tools_legacy_gcp = false` under `[features]` in `config.toml`. ([#60617](https://github.com/openai/codex/pull/60617), [#60848](https://github.com/openai/codex/pull/60848))\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.167.1...rust-v0.167.2\n\n\n\n",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
+      "updated_at": "2026-11-11T22:44:46Z",
+      "topics": [
+        "codex",
+        "windows"
+      ],
+      "kind": "release",
+      "status": "published"
+    },
+    {
+      "id": "incident-01M765MJQK7F85SC82RMTYN0V3",
+      "title": "Elevated errors affecting logins, sign-ups, and ChatGPT features",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "source_url": "https://status.openai.com/incidents/01M765MJQK7F85SC82RMTYN0V3",
+      "updated_at": "2026-11-11T20:52:40Z",
+      "topics": [
+        "chatgpt"
+      ],
+      "kind": "incident",
+      "status": "resolved"
+    },
+    {
+      "id": "codex-rust-v0.167.1",
+      "title": "0.167.1",
+      "summary": "\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.167.0...rust-v0.167.1\n\n\n\n",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.1",
+      "updated_at": "2026-11-10T21:32:01Z",
+      "topics": [
+        "codex",
+        "windows"
+      ],
+      "kind": "release",
+      "status": "published"
+    },
+    {
+      "id": "incident-01M6S2FV5TZWQ753NHRB7BF5K7",
+      "title": "Elevated error rates with some U.S. business Mastercards",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "source_url": "https://status.openai.com/incidents/01M6S2FV5TZWQ753NHRB7BF5K7",
+      "updated_at": "2026-11-10T16:06:18Z",
+      "topics": [
+        "general"
+      ],
+      "kind": "incident",
+      "status": "resolved"
+    },
+    {
+      "id": "incident-01M71W79MAGEXEX93QTVTBYJ4K",
+      "title": "Incorrect cost data in Costs API exports",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "source_url": "https://status.openai.com/incidents/01M71W79MAGEXEX93QTVTBYJ4K",
+      "updated_at": "2026-11-10T07:02:33Z",
+      "topics": [
+        "api"
+      ],
+      "kind": "incident",
+      "status": "resolved"
+    },
+    {
+      "id": "incident-01M7193DWYRFWQM5W6E3VZ7TM7",
+      "title": "Elevated Errors On API",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "source_url": "https://status.openai.com/incidents/01M7193DWYRFWQM5W6E3VZ7TM7",
+      "updated_at": "2026-11-09T23:50:46Z",
+      "topics": [
+        "api"
+      ],
+      "kind": "incident",
+      "status": "resolved"
+    },
+    {
+      "id": "incident-01M70RDA2GWD2WXE58ANY0WV5R",
+      "title": "Elevated ChatGPT Conversation Errors",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "source_url": "https://status.openai.com/incidents/01M70RDA2GWD2WXE58ANY0WV5R",
+      "updated_at": "2026-11-09T19:08:31Z",
+      "topics": [
+        "chatgpt"
+      ],
+      "kind": "incident",
+      "status": "resolved"
+    },
+    {
+      "id": "incident-01M6XVDCKRT3PSB0YP8J30GTD5",
+      "title": "Elevated errors with image generation",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "source_url": "https://status.openai.com/incidents/01M6XVDCKRT3PSB0YP8J30GTD5",
+      "updated_at": "2026-11-08T17:00:42Z",
+      "topics": [
+        "images"
+      ],
+      "kind": "incident",
+      "status": "resolved"
+    },
+    {
+      "id": "incident-01M6P50GPP1V98EF8MJ9SH393R",
+      "title": "ChatGPT Work and Dots Errors",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "source_url": "https://status.openai.com/incidents/01M6P50GPP1V98EF8MJ9SH393R",
+      "updated_at": "2026-11-06T04:31:37Z",
+      "topics": [
+        "work",
+        "chatgpt"
+      ],
+      "kind": "incident",
+      "status": "resolved"
+    },
+    {
+      "id": "incident-01M6MBCX427A7113A3T4FJ1N6Y",
+      "title": "Elevated error rates across paid ChatGPT plans",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "source_url": "https://status.openai.com/incidents/01M6MBCX427A7113A3T4FJ1N6Y",
+      "updated_at": "2026-11-05T00:32:37Z",
+      "topics": [
+        "chatgpt"
+      ],
+      "kind": "incident",
+      "status": "resolved"
+    }
+  ]
 }
