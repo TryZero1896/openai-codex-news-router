@@ -1,0 +1,10 @@
+{
+  "id": "manual-image-status-2026-11-13",
+  "title": "Beispiel: Bildgenerierung gestört",
+  "summary": "Beispielmeldung, nicht als tatsächliche Störung verstehen. Keine neuen Bilder generieren, bis die Originalquelle die Störung bestätigt.",
+  "source_url": "https://status.openai.com/",
+  "updated_at": "2026-11-13T08:00:00Z",
+  "topics": ["images", "api", "chatgpt"],
+  "kind": "incident",
+  "status": "active"
+}

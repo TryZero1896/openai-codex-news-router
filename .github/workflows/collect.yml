@@ -1,0 +1,32 @@
+name: OpenAI official updates
+on:
+  schedule:
+    - cron: '13 */3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: openai-news-feed
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect official Codex releases and OpenAI incidents
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m news_router.collect --feed feed.json
+      - name: Commit changed feed
+        run: |
+          git diff --quiet -- feed.json && exit 0
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add feed.json
+          git commit -m 'chore: refresh official OpenAI news feed'
+          git push

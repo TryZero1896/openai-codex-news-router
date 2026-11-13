@@ -1,0 +1,10 @@
+{
+  "feed": "https://raw.githubusercontent.com/TryZero1896/openai-codex-news-router/main/feed.json",
+  "codex_executable": "codex",
+  "threads": [
+    {
+      "thread_id": "HIER-BESTEHENDE-CODEX-THREAD-ID-EINTRAGEN",
+      "topics": ["codex", "api", "images", "security", "windows"]
+    }
+  ]
+}
