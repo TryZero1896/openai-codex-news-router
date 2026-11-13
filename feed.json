@@ -2,6 +2,18 @@
   "schema": 1,
   "events": [
     {
+      "id": "incident-01M7ATRS6BMZ61E4JDHJGM79Y0",
+      "title": "Delayed Costs Data in the Compliance API",
+      "summary": "We’ve applied a mitigation and are monitoring the affected services to confirm recovery. Delays in cost data are still expected.",
+      "source_url": "https://status.openai.com/incidents/01M7ATRS6BMZ61E4JDHJGM79Y0",
+      "updated_at": "2026-11-13T18:56:45Z",
+      "topics": [
+        "api"
+      ],
+      "kind": "incident",
+      "status": "monitoring"
+    },
+    {
       "id": "incident-01M78GAT3AK9P9W8Z230KHFVE8",
       "title": "Elevated errors affecting the Microsoft 365 connector",
       "summary": "We’re seeing signs of recovery for the Microsoft 365 connector and are continuing to monitor the affected services to confirm recovery.",
@@ -12,20 +24,6 @@
       ],
       "kind": "incident",
       "status": "monitoring"
-    },
-    {
-      "id": "incident-01M7ATRS6BMZ61E4JDHJGM79Y0",
-      "title": "Delayed Costs Data in the Compliance API",
-      "summary": "We have identified an issue causing delays in publishing Organization cost data through the Costs API. API and ChatGPT usage are not affected. We are working to restore normal data freshness.",
-      "source_url": "https://status.openai.com/incidents/01M7ATRS6BMZ61E4JDHJGM79Y0",
-      "updated_at": "2026-11-13T16:10:07Z",
-      "topics": [
-        "work",
-        "api",
-        "chatgpt"
-      ],
-      "kind": "incident",
-      "status": "active"
     },
     {
       "id": "codex-rust-v0.169.0",
