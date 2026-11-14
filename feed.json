@@ -2,6 +2,31 @@
   "schema": 1,
   "events": [
     {
+      "id": "incident-01M7ATRS6BMZ61E4JDHJGM79Y0",
+      "title": "Delayed Costs Data in the Compliance API",
+      "summary": "We are monitoring the affected services to confirm recovery. Delays in cost data are still expected.",
+      "source_url": "https://status.openai.com/incidents/01M7ATRS6BMZ61E4JDHJGM79Y0",
+      "updated_at": "2026-11-14T05:31:20Z",
+      "topics": [
+        "api"
+      ],
+      "kind": "incident",
+      "status": "monitoring"
+    },
+    {
+      "id": "incident-01M7C40W0N5MZHNW0YM09QV962",
+      "title": "Elevated errors with ChatGPT billing and Ads billing",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "source_url": "https://status.openai.com/incidents/01M7C40W0N5MZHNW0YM09QV962",
+      "updated_at": "2026-11-14T05:27:53Z",
+      "topics": [
+        "api",
+        "chatgpt"
+      ],
+      "kind": "incident",
+      "status": "resolved"
+    },
+    {
       "id": "incident-01M78GAT3AK9P9W8Z230KHFVE8",
       "title": "Elevated errors affecting the Microsoft 365 connector",
       "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
@@ -12,18 +37,6 @@
       ],
       "kind": "incident",
       "status": "resolved"
-    },
-    {
-      "id": "incident-01M7ATRS6BMZ61E4JDHJGM79Y0",
-      "title": "Delayed Costs Data in the Compliance API",
-      "summary": "We’ve applied a mitigation and are monitoring the affected services to confirm recovery. Delays in cost data are still expected.",
-      "source_url": "https://status.openai.com/incidents/01M7ATRS6BMZ61E4JDHJGM79Y0",
-      "updated_at": "2026-11-13T18:56:45Z",
-      "topics": [
-        "api"
-      ],
-      "kind": "incident",
-      "status": "monitoring"
     },
     {
       "id": "codex-rust-v0.169.0",
