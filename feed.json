@@ -2,6 +2,19 @@
   "schema": 1,
   "events": [
     {
+      "id": "incident-01M7N9VNR6X5SEC90M1YCDB36D",
+      "title": "Costs API data is delayed",
+      "summary": "We have identified a delay in our Costs API. We are working to resolve the issue.",
+      "source_url": "https://status.openai.com/incidents/01M7N9VNR6X5SEC90M1YCDB36D",
+      "updated_at": "2026-11-17T17:46:15Z",
+      "topics": [
+        "work",
+        "api"
+      ],
+      "kind": "incident",
+      "status": "active"
+    },
+    {
       "id": "incident-01M7ATRS6BMZ61E4JDHJGM79Y0",
       "title": "Delayed Costs Data in the Compliance API",
       "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
