@@ -2,6 +2,34 @@
   "schema": 1,
   "events": [
     {
+      "id": "codex-gpt-6.2-astra-sol-2026-11-17",
+      "title": "GPT-6.2 Astra und Sol jetzt in Codex und ChatGPT Work",
+      "summary": "Seit 17. November 2026 sind GPT-6.2 Astra für komplexe Entwicklungs- und Prüfaufgaben und GPT-6.2 Sol für reguläres Coding und mehrstufige Aufgaben verfügbar. Codex-App: Modellwahl über Model Picker; Codex CLI: /model. Verfügbar für berechtigte Plus-, Pro-, Enterprise- und Edu-Konten. Kein Rollout in den normalen Chat. Nutzen: stärkere Modelle für lokale Windows-Codex-Arbeit ohne Codex Cloud.",
+      "source_url": "https://learn.chatgpt.com/docs/whats-new/gpt-62-astra-sol",
+      "updated_at": "2026-11-17T21:20:05Z",
+      "topics": [
+        "codex",
+        "models",
+        "windows"
+      ],
+      "kind": "announcement",
+      "status": "published"
+    },
+    {
+      "id": "ui-codex-gpt-6.2-sol-ultrafast-pro200-2026-11-17",
+      "title": "Codex: Ultrafast erstmals für Pro $200 mit GPT-6.2 Sol",
+      "summary": "Codex und ChatGPT Work: Pro-$200-Nutzer können GPT-6.2 Sol erstmals in Ultrafast verwenden. Pro $500 kann Ultrafast mit Sol und Astra nutzen. Geschwindigkeit über die unterstützte Modellauswahl wählen; beschleunigte Ausgabe belastet das gemeinsame Work-/Codex-Nutzungsbudget stärker. In der lokalen Windows-Codex-App beziehungsweise CLI nur bei angezeigter Option verwenden; kein Codex-Cloud-Workflow erforderlich.",
+      "source_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "updated_at": "2026-11-17T21:20:05Z",
+      "topics": [
+        "codex",
+        "windows",
+        "models"
+      ],
+      "kind": "announcement",
+      "status": "published"
+    },
+    {
       "id": "incident-01M7N9VNR6X5SEC90M1YCDB36D",
       "title": "Costs API data is delayed",
       "summary": "We've pushed a fix and are monitoring the recovery.",
