@@ -2,6 +2,20 @@
   "schema": 1,
   "events": [
     {
+      "id": "codex-windows-mxc-sandbox-transition-2026-11-18",
+      "title": "Codex Windows: OpenAI dokumentiert die Umstellung auf MXC-Sandbox",
+      "summary": "OpenAI beschreibt am 18. November 2026 den laufenden Übergang der nativen Windows-Sandbox zu Microsoft eXecution Container (MXC). Ziel: weniger erhöhte Rechte, weniger teure ACL-Prüfungen und weniger dauerhafte Firewall-/Sandbox-Zustände. Wichtig für lokale Windows-Codex-Workflows und MCP: stdio-MCP-Server starten laut Artikel nicht automatisch in der Agent-Sandbox; sie können bei Bedarf explizit mit 'codex sandbox --permission-profile ...' eingeschränkt werden. Dies ist eine technische Ankündigung, kein Nachweis für einen flächendeckend abgeschlossenen Rollout.",
+      "source_url": "https://openai.com/index/inside-the-codex-sandbox/",
+      "updated_at": "2026-11-18T21:17:47Z",
+      "topics": [
+        "codex",
+        "windows",
+        "security"
+      ],
+      "kind": "announcement",
+      "status": "published"
+    },
+    {
       "id": "incident-01M7N9VNR6X5SEC90M1YCDB36D",
       "title": "Costs API data is delayed",
       "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
