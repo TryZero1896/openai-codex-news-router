@@ -4,15 +4,14 @@
     {
       "id": "incident-01M7Q99XRGP8T4DWJN8DSZXA1X",
       "title": "Elevated conversation errors for Free and Go users",
-      "summary": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
       "source_url": "https://status.openai.com/incidents/01M7Q99XRGP8T4DWJN8DSZXA1X",
-      "updated_at": "2026-11-18T12:15:02Z",
+      "updated_at": "2026-11-18T14:13:46Z",
       "topics": [
-        "work",
         "chatgpt"
       ],
       "kind": "incident",
-      "status": "active"
+      "status": "resolved"
     },
     {
       "id": "codex-rust-v0.170.0",
