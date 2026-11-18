@@ -2,6 +2,19 @@
   "schema": 1,
   "events": [
     {
+      "id": "codex-rust-v0.169.1",
+      "title": "0.169.1",
+      "summary": "## Chores\n\nNo verified release highlights available.\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.169.0...rust-v0.169.1\n\n\n\n",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.169.1",
+      "updated_at": "2026-11-17T22:21:10Z",
+      "topics": [
+        "codex",
+        "windows"
+      ],
+      "kind": "release",
+      "status": "published"
+    },
+    {
       "id": "codex-gpt-6.2-astra-sol-2026-11-17",
       "title": "GPT-6.2 Astra und Sol jetzt in Codex und ChatGPT Work",
       "summary": "Seit 17. November 2026 sind GPT-6.2 Astra für komplexe Entwicklungs- und Prüfaufgaben und GPT-6.2 Sol für reguläres Coding und mehrstufige Aufgaben verfügbar. Codex-App: Modellwahl über Model Picker; Codex CLI: /model. Verfügbar für berechtigte Plus-, Pro-, Enterprise- und Edu-Konten. Kein Rollout in den normalen Chat. Nutzen: stärkere Modelle für lokale Windows-Codex-Arbeit ohne Codex Cloud.",
