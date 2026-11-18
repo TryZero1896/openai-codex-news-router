@@ -2,6 +2,19 @@
   "schema": 1,
   "events": [
     {
+      "id": "codex-rust-v0.170.0",
+      "title": "0.170.0",
+      "summary": "## New Features\n- Added WebRTC negotiation for realtime voice calls in the TUI. (#61172)\n- Added automatically refreshed authentication headers for OpenTelemetry HTTP exporters. (#61028)\n- Added experimental support for using identically named MCP servers across environments. (#60905)\n\n## Bug Fixes\n- Oversized WebSocket requests now fall back to HTTP without unnecessary retries. (#60840, #60841)\n- Fixed MCP OAuth credential races during cancellation, login, and logout. (#60849, #60981)\n- Improved automatic reconnection for Cloud conversations and preserved active recovery turns when clients reconnect. (#60969, #61014)\n- Fixed Windows file replacement, sandbox permission preservation, and runtime registration recovery. (#60872, #60943, #60944)\n- Fixed permission updates and child threads losing existing sandbox restrictions. (#60936, #61134)\n- Removed duplicate file search results and fixed thread search snippets for queries containing whitespace. (#60845, #60846)\n\n## Documentation\n- Up",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
+      "updated_at": "2026-11-18T03:40:48Z",
+      "topics": [
+        "codex",
+        "windows"
+      ],
+      "kind": "release",
+      "status": "published"
+    },
+    {
       "id": "codex-rust-v0.169.1",
       "title": "0.169.1",
       "summary": "## Chores\n\nNo verified release highlights available.\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.169.0...rust-v0.169.1\n\n\n\n",
