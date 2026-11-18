@@ -2,6 +2,18 @@
   "schema": 1,
   "events": [
     {
+      "id": "incident-01M7N9VNR6X5SEC90M1YCDB36D",
+      "title": "Costs API data is delayed",
+      "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "source_url": "https://status.openai.com/incidents/01M7N9VNR6X5SEC90M1YCDB36D",
+      "updated_at": "2026-11-18T17:15:46Z",
+      "topics": [
+        "api"
+      ],
+      "kind": "incident",
+      "status": "resolved"
+    },
+    {
       "id": "incident-01M7Q99XRGP8T4DWJN8DSZXA1X",
       "title": "Elevated conversation errors for Free and Go users",
       "summary": "All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
@@ -66,18 +78,6 @@
       ],
       "kind": "announcement",
       "status": "published"
-    },
-    {
-      "id": "incident-01M7N9VNR6X5SEC90M1YCDB36D",
-      "title": "Costs API data is delayed",
-      "summary": "We've pushed a fix and are monitoring the recovery.",
-      "source_url": "https://status.openai.com/incidents/01M7N9VNR6X5SEC90M1YCDB36D",
-      "updated_at": "2026-11-17T19:53:49Z",
-      "topics": [
-        "api"
-      ],
-      "kind": "incident",
-      "status": "monitoring"
     },
     {
       "id": "incident-01M7ATRS6BMZ61E4JDHJGM79Y0",
