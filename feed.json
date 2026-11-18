@@ -2,6 +2,19 @@
   "schema": 1,
   "events": [
     {
+      "id": "incident-01M7Q99XRGP8T4DWJN8DSZXA1X",
+      "title": "Elevated conversation errors for Free and Go users",
+      "summary": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+      "source_url": "https://status.openai.com/incidents/01M7Q99XRGP8T4DWJN8DSZXA1X",
+      "updated_at": "2026-11-18T12:15:02Z",
+      "topics": [
+        "work",
+        "chatgpt"
+      ],
+      "kind": "incident",
+      "status": "active"
+    },
+    {
       "id": "codex-rust-v0.170.0",
       "title": "0.170.0",
       "summary": "## New Features\n- Added WebRTC negotiation for realtime voice calls in the TUI. (#61172)\n- Added automatically refreshed authentication headers for OpenTelemetry HTTP exporters. (#61028)\n- Added experimental support for using identically named MCP servers across environments. (#60905)\n\n## Bug Fixes\n- Oversized WebSocket requests now fall back to HTTP without unnecessary retries. (#60840, #60841)\n- Fixed MCP OAuth credential races during cancellation, login, and logout. (#60849, #60981)\n- Improved automatic reconnection for Cloud conversations and preserved active recovery turns when clients reconnect. (#60969, #61014)\n- Fixed Windows file replacement, sandbox permission preservation, and runtime registration recovery. (#60872, #60943, #60944)\n- Fixed permission updates and child threads losing existing sandbox restrictions. (#60936, #61134)\n- Removed duplicate file search results and fixed thread search snippets for queries containing whitespace. (#60845, #60846)\n\n## Documentation\n- Up",
