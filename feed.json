@@ -394,6 +394,21 @@
       ],
       "kind": "incident",
       "status": "resolved"
+    },
+    {
+      "id": "chatgpt-codex-shared-usage-2026-11",
+      "title": "Shared usage allowance for ChatGPT and Codex from December",
+      "summary": "OpenAI documents that Plus, Pro and Business will share a token-based allowance across ChatGPT and Codex starting in December 2026. Instant chat does not use the allowance. Settings → Usage will show remaining combined usage and reset times. A small group may see the change earlier. Exact allowance sizes are not specified.",
+      "source_url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "updated_at": "2026-11-24T21:26:42Z",
+      "topics": [
+        "chatgpt",
+        "codex",
+        "work",
+        "windows"
+      ],
+      "kind": "policy",
+      "status": "published"
     }
   ]
 }
