@@ -2,6 +2,20 @@
   "schema": 1,
   "events": [
     {
+      "id": "incident-01M898HVZGXFV2XC4775CG9GF8",
+      "title": "ChatGPT and Codex Cloud are experiencing elevated conversation errors",
+      "summary": "We have identified that users are experiencing elevated errors for ChatGPT and ChatGPT Work, as well as cloud Codex threads.\n\nWe have identified the issue and are working on implementing a mitigation.",
+      "source_url": "https://status.openai.com/incidents/01M898HVZGXFV2XC4775CG9GF8",
+      "updated_at": "2026-11-25T12:14:44Z",
+      "topics": [
+        "work",
+        "codex",
+        "chatgpt"
+      ],
+      "kind": "incident",
+      "status": "active"
+    },
+    {
       "id": "chatgpt-codex-shared-usage-2026-11",
       "title": "Shared usage allowance for ChatGPT and Codex from December",
       "summary": "OpenAI documents that Plus, Pro and Business will share a token-based allowance across ChatGPT and Codex starting in December 2026. Instant chat does not use the allowance. Settings → Usage will show remaining combined usage and reset times. A small group may see the change earlier. Exact allowance sizes are not specified.",
