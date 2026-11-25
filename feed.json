@@ -2,6 +2,21 @@
   "schema": 1,
   "events": [
     {
+      "id": "chatgpt-codex-shared-usage-2026-11",
+      "title": "Shared usage allowance for ChatGPT and Codex from December",
+      "summary": "OpenAI documents that Plus, Pro and Business will share a token-based allowance across ChatGPT and Codex starting in December 2026. Instant chat does not use the allowance. Settings → Usage will show remaining combined usage and reset times. A small group may see the change earlier. Exact allowance sizes are not specified.",
+      "source_url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "updated_at": "2026-11-24T21:26:42Z",
+      "topics": [
+        "chatgpt",
+        "codex",
+        "work",
+        "windows"
+      ],
+      "kind": "policy",
+      "status": "published"
+    },
+    {
       "id": "codex-rust-v0.172.0",
       "title": "0.172.0",
       "summary": "## New Features\n\n- Follow thread links from search results and transcripts to open saved conversations and nested agents in the terminal. (#62332)\n- Press `Tab` to complete arguments for supported slash commands. For example, `/mcp lo` completes to `/mcp login`. (#62343)\n- Jump between task groups in the agent command center with `Shift+Up` and `Shift+Down`. (#62200)\n- Optional stdio MCP servers with cached tool lists now start on their first tool call by default. (#62366)\n- Set an approval reviewer for individual connected app tools in `config.toml`. (#62360)\n- App-server clients can select Amazon Bedrock Runtime during setup or sign-in. (#62222)\n\n## Bug Fixes\n\n- `codex exec resume` restores saved sandbox permissions, the working directory, and workspace roots unless explicitly overridden. (#62194)\n- Remote sessions preserve working directories, workspace roots, and writable paths when the client and server run on different operating systems. (#62375, #62376, #62377)\n- Codex reports p",
@@ -394,21 +409,6 @@
       ],
       "kind": "incident",
       "status": "resolved"
-    },
-    {
-      "id": "chatgpt-codex-shared-usage-2026-11",
-      "title": "Shared usage allowance for ChatGPT and Codex from December",
-      "summary": "OpenAI documents that Plus, Pro and Business will share a token-based allowance across ChatGPT and Codex starting in December 2026. Instant chat does not use the allowance. Settings → Usage will show remaining combined usage and reset times. A small group may see the change earlier. Exact allowance sizes are not specified.",
-      "source_url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
-      "updated_at": "2026-11-24T21:26:42Z",
-      "topics": [
-        "chatgpt",
-        "codex",
-        "work",
-        "windows"
-      ],
-      "kind": "policy",
-      "status": "published"
     }
   ]
 }
