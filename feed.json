@@ -4,14 +4,14 @@
     {
       "id": "incident-01M89RGC3STKK2MT53TXHFMY4H",
       "title": "Elevated errors with Codex GitHub reviews and pull request merges",
-      "summary": "GitHub reports that the service disruption affecting pull requests and webhooks has been mitigated. We are monitoring Codex automated pull request reviews and merge operations to confirm recovery and stability.",
+      "summary": "The GitHub service disruption has been resolved. Codex automated GitHub pull request reviews and merges are operating normally",
       "source_url": "https://status.openai.com/incidents/01M89RGC3STKK2MT53TXHFMY4H",
-      "updated_at": "2026-11-25T16:58:51Z",
+      "updated_at": "2026-11-26T14:07:54Z",
       "topics": [
         "codex"
       ],
       "kind": "incident",
-      "status": "monitoring"
+      "status": "resolved"
     },
     {
       "id": "incident-01M898HVZGXFV2XC4775CG9GF8",
